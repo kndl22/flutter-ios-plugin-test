@@ -1,0 +1,6 @@
+framework module TransmitSDKUILayer {
+  umbrella header "TransmitSDKUILayer.h"
+
+  export *
+  module * { export * }
+}

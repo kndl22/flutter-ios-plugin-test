@@ -1,0 +1,6 @@
+framework module TransmitSDK3 {
+  umbrella header "TransmitSDK3.h"
+
+  export *
+  module * { export * }
+}

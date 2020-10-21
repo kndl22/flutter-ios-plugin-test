@@ -1,0 +1,76 @@
+{
+    "branding": {
+//        "logo" : {
+//            "navigationBarLogo" : "transmit_logo"
+//        },
+        "colors_branding": [
+            {
+                "id": "tsx_theme",
+                "primary_accent_color": {
+                    "color": "#50719B",
+                    "alpha": "0.88"
+                },
+                "primary_default_color": {
+                    "color": "#313131",
+                    "alpha": "0.88"
+                },
+                "secondary_color": {
+                    "color": "#97BAE5",
+                    "alpha": "1.0"
+                },
+                "status_bar_color": {
+                    "color": "#1F466D",
+                    "alpha": "0.8"
+                },
+                "background_color": {
+                    "color": "#EEF1F3",
+                    "alpha": "1.0"
+                },
+                "surface_color": {
+                    "color": "#FFFFFF",
+                    "alpha": "1.0"
+                },
+                "error_color": {
+                    "color": "#C62828",
+                    "alpha": "1.0"
+                },
+                "instructions_bar_error_background_color": {
+                    "color": "#11CFD5",
+                    "alpha": "1.0"
+                },
+                "disabled_color": {
+                    "color": "#313131",
+                    "alpha": "0.42"
+                },
+                "default_indicator_color": {
+                    "color": "#6BC10D",
+                    "alpha": "1.0"
+                },
+                "information_gradient_start_color": {
+                    "color": "#E4ECF6",
+                    "alpha": "1.0"
+                },
+                "information_gradient_middle_color": {
+                    "color": "#F8FBFE",
+                    "alpha": "1.0"
+                },
+                "information_gradient_end_color": {
+                    "color": "#FFFFFF",
+                    "alpha": "1.0"
+                },
+                "voice_gradient_start_color": {
+                    "color": "#FEFEFF",
+                    "alpha": "1.0"
+                },
+                "voice_gradient_middle_color": {
+                    "color": "#EBF0F8",
+                    "alpha": "1.0"
+                },
+                "voice_gradient_end_color": {
+                    "color": "#FFFFFF",
+                    "alpha": "1.0"
+                }
+            }
+        ]
+    }
+}

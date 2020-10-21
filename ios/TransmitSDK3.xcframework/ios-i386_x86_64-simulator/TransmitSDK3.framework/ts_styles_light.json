@@ -1,0 +1,737 @@
+{
+  "styles": [
+    {
+      "rule": {
+        "tags": [
+          "body"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "row"
+        ]
+      },
+      "properties": {
+        "lineColor": {
+          "ref": "tsx_separator_row_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "screen_authenticator_questions","row"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_dm_header_line"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "android",
+          "status_bar"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_primary_variant_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "toolbar"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_primary_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "intro"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_primary_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "button"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "icon"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "remove_button"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_background_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_error_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "android",
+          "pattern"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "android",
+          "pattern",
+          "focused"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        },
+        "lineColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ios",
+          "pattern"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_variant_color"
+        },
+        "lineColor": {
+          "ref": "tsx_primary_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "input"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_background_color"
+        },
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        },
+        "lineColor":{
+          "ref": "tsx_separator_row_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "title"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "input",
+          "focused"
+        ]
+      },
+      "properties": {
+        "lineColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "input",
+          "icon"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_separator_row_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "input",
+          "icon",
+          "focused"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "popup"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "popup",
+          "title"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "description"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "fingerprint_prompt"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "highlighted"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "default_tag"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_tag_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_tag_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "locked"
+        ]
+      },
+      "properties": {
+        "tint": {
+          "ref": "tsx_surface_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "tab_menu"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_surface_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "tab_target"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_surface_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "tab_target",
+          "highlighted"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        },
+        "lineColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "separator_section"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_separator_section_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "error"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_error_color"
+        },
+        "lineColor": {
+          "ref": "tsx_error_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "disabled"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_separator_row_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "toast"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_surface_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_toast_surface_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ripple_button"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_primary_variant_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "progress_bar"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "totp_timer"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        },
+        "backgroundColor": {
+          "ref": "tsx_secondary_color",
+          "alpha": 0.2
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "totp_code"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_variant_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "totp_canonical"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "challenge"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "challenge_title"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "header_section"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        },
+        "lineColor": {
+          "ref": "tsx_separator_section_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "header"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "subtitle"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_secondary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ts_custom_ui_authenticator_questions",
+          "row",
+          "answered"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_surface_color"
+        },
+        "lineColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ts_custom_ui_authenticator_questions",
+          "row",
+          "title"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ts_custom_ui_authenticator_questions",
+          "row",
+          "description"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        },
+        "backgroundColor":{
+          "ref":"tsx_surface_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ts_custom_ui_authenticator_questions",
+          "row",
+          "input"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_background_color"
+        },
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        },
+        "lineColor":{
+          "ref": "tsx_separator_row_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "ts_custom_ui_authenticator_questions",
+          "row",
+          "input",
+          "focused"
+        ]
+      },
+      "properties": {
+        "lineColor":{
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "title",
+          "answered"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "questions_summary"
+        ]
+      },
+      "properties": {
+        "tintColor": {
+          "ref": "tsx_primary_color"
+        }
+      }
+    },
+    {
+      "rule": {
+        "tags": [
+          "intro",
+          "error"
+        ]
+      },
+      "properties": {
+        "backgroundColor": {
+          "ref": "tsx_intro_error_color"
+        },
+        "tintColor": {
+          "ref": "tsx_on_background_color"
+        }
+      }
+    }
+  ],
+  "values": {
+    "tsx_primary_color": {
+      "hex": "#78909C"
+    },
+    "tsx_primary_variant_color": {
+      "hex": "#607D8B"
+    },
+    "tsx_secondary_color": {
+      "hex": "#33691E"
+    },
+    "tsx_error_color": {
+      "hex": "#880E4F"
+    },
+    "tsx_intro_error_color": {
+      "hex": "#880E4F"
+    },
+    "tsx_tag_color": {
+      "hex": "#607D8B"
+    },
+    "tsx_surface_color": {
+      "hex": "#EEF1F3"
+    },
+    "tsx_on_primary_color": {
+      "hex": "#FFFFFF"
+    },
+    "tsx_on_surface_color": {
+      "hex": "#000000"
+    },
+    "tsx_on_error_color": {
+      "hex": "#FFFFFF"
+    },
+    "tsx_on_tag_color": {
+      "hex": "#FFFFFF"
+    },
+    "tsx_background_color": {
+      "hex": "#FFFFFF"
+    },
+    "tsx_on_background_color": {
+      "hex": "#000000"
+    },
+    "tsx_separator_section_color": {
+      "hex": "#26000000"
+    },
+    "tsx_separator_row_color": {
+      "hex": "#d4d4d4"
+    },
+    "tsx_dm_header_line": {
+      "hex": "#edf0f5"
+    },
+    "tsx_toast_surface_color": {
+      "hex": "#313131",
+      "alpha": 0.8
+    }
+  }
+}
